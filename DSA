@@ -1,0 +1,63 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyM4nuUc3KZtQaCw2SNu86lW",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/sosina14/Problems/blob/main/DSA\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "OKIRY35IFiOR"
+      },
+      "outputs": [],
+      "source": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "class Solution:\n",
+        "    def transpose(self, matrix: List[List[int]]) -> List[List[int]]:\n",
+        "        value = [list(num) for num in zip(*matrix)]\n",
+        "        return value\n",
+        ""
+      ],
+      "metadata": {
+        "id": "CtOHX4nCZOLN"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "867. Transpose Matrix"
+      ],
+      "metadata": {
+        "id": "f1ANfpqtZSF8"
+      }
+    }
+  ]
+}
