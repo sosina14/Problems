@@ -4,8 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyM4nuUc3KZtQaCw2SNu86lW",
-      "include_colab_link": true
+      "authorship_tag": "ABX9TyPyaih1sEKHNeYQY86SZkmz"
     },
     "kernelspec": {
       "name": "python3",
@@ -17,32 +16,12 @@
   },
   "cells": [
     {
-      "cell_type": "markdown",
-      "metadata": {
-        "id": "view-in-github",
-        "colab_type": "text"
-      },
-      "source": [
-        "<a href=\"https://colab.research.google.com/github/sosina14/Problems/blob/main/DSA\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
-      ]
-    },
-    {
-      "cell_type": "code",
-      "execution_count": null,
-      "metadata": {
-        "id": "OKIRY35IFiOR"
-      },
-      "outputs": [],
-      "source": []
-    },
-    {
       "cell_type": "code",
       "source": [
         "class Solution:\n",
         "    def transpose(self, matrix: List[List[int]]) -> List[List[int]]:\n",
         "        value = [list(num) for num in zip(*matrix)]\n",
-        "        return value\n",
-        ""
+        "        return value\n"
       ],
       "metadata": {
         "id": "CtOHX4nCZOLN"
@@ -53,11 +32,97 @@
     {
       "cell_type": "markdown",
       "source": [
-        "867. Transpose Matrix"
+        "Start with arry"
       ],
       "metadata": {
-        "id": "f1ANfpqtZSF8"
+        "id": "G6eGcUgu9hav"
       }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "arr = [1 , 4 , 6 , 7, 8]\n",
+        "print(arr)\n",
+        "arr.append(5)\n",
+        "print(arr)\n",
+        "arr.insert(2, 100)\n",
+        "print(arr)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "5PDg7hZE9kXO",
+        "outputId": "2a074781-8641-4b29-aefd-82bd1ccad212"
+      },
+      "execution_count": 10,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "[1, 4, 6, 7, 8]\n",
+            "[1, 4, 6, 7, 8, 5]\n",
+            "[1, 4, 100, 6, 7, 8, 5]\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "WWZb3wI8P2Y4"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = int(input())\n",
+        "b = int(input())\n",
+        "\n",
+        "print(a+b)\n",
+        "print(b-a)\n",
+        "print(a*b)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "SrWs3UrcP9Hm",
+        "outputId": "3fe0a455-5bd3-45f6-beb5-d3a1ea03096c"
+      },
+      "execution_count": 11,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "3\n",
+            "5\n",
+            "8\n",
+            "2\n",
+            "15\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#https://leetcode.com/problems/convert-the-temperature/\n",
+        "class Solution:\n",
+        "    def convertTemperature(self, celsius: float) -> List[float]:\n",
+        "        k = celsius + 273.15\n",
+        "        f = celsius * 1.80 + 32.00\n",
+        "        value = [k, f]\n",
+        "        return value"
+      ],
+      "metadata": {
+        "id": "uKmNL9q5ofiH"
+      },
+      "execution_count": 17,
+      "outputs": []
     }
   ]
 }
