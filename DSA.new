@@ -1,23 +1,4 @@
-{
-  "cells": [
-    {
-      "cell_type": "markdown",
-      "metadata": {
-        "id": "view-in-github",
-        "colab_type": "text"
-      },
-      "source": [
-        "<a href=\"https://colab.research.google.com/github/sosina14/Problems/blob/main/DSA.new\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
-      ]
-    },
-    {
-      "cell_type": "code",
-      "execution_count": null,
-      "metadata": {
-        "id": "CtOHX4nCZOLN"
-      },
-      "outputs": [],
-      "source": [
+
         "class Solution:\n",
         "    def transpose(self, matrix: List[List[int]]) -> List[List[int]]:\n",
         "        value = [list(num) for num in zip(*matrix)]\n",
