@@ -1,3 +1,5 @@
+#https://leetcode.com/problems/count-equal-and-divisible-pairs-in-an-array/description/
+
 class Solution:
     def countPairs(self, nums: List[int], k: int) -> int:
         count = 0
