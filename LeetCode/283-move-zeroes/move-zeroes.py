@@ -7,11 +7,13 @@ class Solution:
         r = 0
         while r < len(nums):
             if nums[r] != 0:
-                t = nums[r]
-                nums[r] = nums[w]
-                nums[w] = t
+                # t = nums[r]
+                # nums[r] = nums[w]
+                # nums[w] = t
+                nums[r] , nums[w] = nums[w], nums[r]
                 w += 1
             r += 1 
+        
 
         # write = 0
         # read = 0
