@@ -1,7 +1,5 @@
 class Solution:
     def checkInclusion(self, s1: str, s2: str) -> bool:
-        from collections import Counter
-        
         n, m = len(s1), len(s2)
         if n > m:
             return False
