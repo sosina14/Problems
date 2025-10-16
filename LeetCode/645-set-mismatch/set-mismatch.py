@@ -1,8 +1,6 @@
 class Solution:
     def findErrorNums(self, nums: List[int]) -> List[int]:
         seen = {}
-        dup = -1
-        miss = -1
         for i in range(len(nums)):
             if nums[i] in seen:
                 dup = nums[i]
